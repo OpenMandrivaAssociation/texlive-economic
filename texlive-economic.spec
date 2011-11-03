@@ -1,3 +1,9 @@
+# revision 16184
+# category Package
+# catalog-ctan /biblio/bibtex/contrib/economic
+# catalog-date 2009-11-25 18:21:28 +0100
+# catalog-license lppl
+# catalog-version undef
 Name:		texlive-economic
 Version:	20091125
 Release:	1
@@ -105,6 +111,7 @@ provide variations of author-date styles of presentation.
 %doc %{_texmfdistdir}/doc/bibtex/economic/oegatb-ex.pdf
 %doc %{_texmfdistdir}/doc/bibtex/economic/oegatb-ex.png
 %doc %{_texmfdistdir}/doc/bibtex/economic/oegatb-ex.tex
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -115,3 +122,5 @@ provide variations of author-date styles of presentation.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar bibtex tex doc %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
