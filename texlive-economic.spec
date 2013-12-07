@@ -6,7 +6,7 @@
 # catalog-version undef
 Name:		texlive-economic
 Version:	20091125
-Release:	3
+Release:	4
 Summary:	BibTeX support for submitting to Economics journals
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/biblio/bibtex/contrib/economic
