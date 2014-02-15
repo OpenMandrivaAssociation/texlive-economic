@@ -1,16 +1,16 @@
-# revision 16184
+# revision 32639
 # category Package
 # catalog-ctan /biblio/bibtex/contrib/economic
-# catalog-date 2009-11-25 18:21:28 +0100
-# catalog-license lppl
+# catalog-date 2014-01-08 00:12:39 +0100
+# catalog-license noinfo
 # catalog-version undef
 Name:		texlive-economic
-Version:	20091125
-Release:	6
+Version:	20140108
+Release:	1
 Summary:	BibTeX support for submitting to Economics journals
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/biblio/bibtex/contrib/economic
-License:	LPPL
+License:	NOINFO
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/economic.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/economic.doc.tar.xz
 BuildArch:	noarch
@@ -44,8 +44,6 @@ provide variations of author-date styles of presentation.
 %{_texmfdistdir}/bibtex/bst/economic/apecon.bst
 %{_texmfdistdir}/bibtex/bst/economic/cje.bst
 %{_texmfdistdir}/bibtex/bst/economic/ecca.bst
-%{_texmfdistdir}/bibtex/bst/economic/econometrica-fr.bst
-%{_texmfdistdir}/bibtex/bst/economic/econometrica.bst
 %{_texmfdistdir}/bibtex/bst/economic/ecta.bst
 %{_texmfdistdir}/bibtex/bst/economic/erae.bst
 %{_texmfdistdir}/bibtex/bst/economic/ier.bst
@@ -112,17 +110,3 @@ provide variations of author-date styles of presentation.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar bibtex tex doc %{buildroot}%{_texmfdistdir}
-
-
-%changelog
-* Wed Jan 04 2012 Paulo Andrade <pcpa@mandriva.com.br> 20091125-2
-+ Revision: 751321
-- Rebuild to reduce used resources
-
-* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 20091125-1
-+ Revision: 718303
-- texlive-economic
-- texlive-economic
-- texlive-economic
-- texlive-economic
-
