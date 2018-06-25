@@ -5,7 +5,7 @@
 # catalog-license noinfo
 # catalog-version undef
 Name:		texlive-economic
-Version:	20170414
+Version:	20180303
 Release:	1
 Summary:	BibTeX support for submitting to Economics journals
 Group:		Publishing
