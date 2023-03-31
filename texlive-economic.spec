@@ -1,6 +1,6 @@
 Name:		texlive-economic
 Version:	32639
-Release:	1
+Release:	2
 Summary:	BibTeX support for submitting to Economics journals
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/biblio/bibtex/contrib/economic
