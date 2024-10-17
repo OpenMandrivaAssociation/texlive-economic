@@ -3,7 +3,7 @@ Version:	32639
 Release:	2
 Summary:	BibTeX support for submitting to Economics journals
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/biblio/bibtex/contrib/economic
+URL:		https://www.ctan.org/tex-archive/biblio/bibtex/contrib/economic
 License:	NOINFO
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/economic.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/economic.doc.r%{version}.tar.xz
